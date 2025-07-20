@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>قطع الغيار</title>
+  <style>
+    body { font-family: Arial; padding: 20px; }
+    input, button { padding: 10px; margin: 5px 0; }
+    .piece { border: 1px solid #ccc; padding: 10px; margin-top: 10px; }
+  </style>
+</head>
+<body>
+  <h1>إدارة قطع الغيار</h1>
+  <input type="text" id="name" placeholder="اسم القطعة" />
+  <button onclick="addPiece()">إضافة</button>
+
+  <h2>القطع المخزنة</h2>
+  <div id="pieces"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
